@@ -183,9 +183,9 @@ h3 {
     flex-direction: column;
   }
 }
-.fa-brands {
+.icon-anim1 {
   display: inline-block;
-  padding: 0 14px;
+  padding: 0 15px;
   font-size: 40px;
   animation-name: rotate;
   animation-duration: 5s;
@@ -207,4 +207,15 @@ h3 {
   100% {
     transform: rotate(360deg);
   }
+}
+.footer {
+  position: relative;
+  width: 100%;
+  background-color: rgb(255, 200, 106);
+  text-align: center;
+  padding: 20px 15px;
+  padding-bottom: 200px;
+}
+.footer h2 + p {
+  padding: 10px 30px;
 }
